@@ -27,7 +27,9 @@
         <nav>
           <ul class="list page_nav">
             <li class="menu_item link">
-              <a class="menu__link link" href="./index.html">Studio</a>
+              <a class="link_current menu__link link" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li class="menu_item link">
               <a class="menu__link link" href="./portfolio.html">Portfolio</a>
@@ -409,10 +411,10 @@
       </section>
     </footer>
     <!-- (Modal window) -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal_close_btn" data-modal-close>
-          <svg width="8" height="8">
+          <svg class="modal_close_icon" width="8" height="8">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
