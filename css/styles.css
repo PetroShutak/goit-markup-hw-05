@@ -319,7 +319,8 @@ body {
   height: 40px;
   border-radius: 50%;
   fill: #f4f4fd;
-  transition: background-color var(--transition_dur_funk), fill var(--transition_dur_funk);
+  transition: background-color var(--transition_dur_funk),
+    fill var(--transition_dur_funk);
 }
 .social_link_list:hover,
 .social_link_list:focus {
@@ -366,7 +367,8 @@ body {
 }
 .cust_logo {
   color: #8e8f99;
-  transition: color var(--transition_dur_funk), border-color var(--transition_dur_funk);
+  transition: color var(--transition_dur_funk),
+    border-color var(--transition_dur_funk);
 }
 .cust_logo:hover,
 .cust_logo:focus {
@@ -536,7 +538,8 @@ body {
   width: 100%;
   height: 100%;
   transform: translateY(100%);
-  transition: transform var(--transition_dur_funk), opacity var(--transition_dur_funk);
+  transition: transform var(--transition_dur_funk),
+    opacity var(--transition_dur_funk);
   background-color: #4d5ae5;
   opacity: 0;
   background-blend-mode: soft-light;
